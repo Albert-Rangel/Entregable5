@@ -10,12 +10,13 @@ function updateProductList(products) {
     const containerDiv = document.getElementById("allProductsContainer");
     let contenidocambiante = ""
 
-    products.forEach(({ thumbnail, price, description, id, code, stock, status, category }) => {
-            contenidocambiante += `<div class="form-container">
+    products.forEach(({ thumbnail, price, description, id, code, stock, status, category, title }) => {
+        contenidocambiante += `<div class="form-container">
             <div>
                 <div class="card">
                     <img src= "${thumbnail}" alt="..." class="images">
                     <div class="card-body">
+                        <p class="card-text">Title : ${title} $'</p>
                         <p class="card-text">Price : ${price} $'</p>
                         <p class="card-text">Description : ${description} $'</p>
                         <p class="card-text">Id: ${id}</p>
