@@ -16,14 +16,13 @@ function updateProductList(products) {
                 <div class="card">
                     <img src= "${thumbnail}" alt="..." class="images">
                     <div class="card-body">
-                        <p class="card-text">Title : ${title} $'</p>
-                        <p class="card-text">Price : ${price} $'</p>
-                        <p class="card-text">Description : ${description} $'</p>
-                        <p class="card-text">Id: ${id}</p>
-                        <p class="card-text">Code: ${code}</p>
-                        <p class="card-text">Stock: ${stock}</p>
-                        <p class="card-text">Status: ${status}</p>
-                        <p class="card-text">Category: ${category}</p>
+                        Id: ${id} </br> 
+                        Price: ${price} $ </br> 
+                        Description : ${description} </br> 
+                        Code: ${code}</br> 
+                        Stock: ${stock}</br> 
+                        Status: ${status}</br> 
+                        Category: ${category}</br> 
                     </div>
                 </div>
             </div>
