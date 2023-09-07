@@ -11,7 +11,7 @@ router.get("/realTimeProducts", async (req, res) => {
     })
 })
 
-router.get("/home", async (req, res) => {
+router.get("/homehandlebars", async (req, res) => {
     const allProducts =  await productManager.readProducts()
     res.render("home", {
         title: "Cards Products",
